@@ -33,23 +33,27 @@
 
 ---
 
-TemanBunda/
-│
-├── 📁 assets/              → Aset (gambar, font, dll)
-├── 📁 netlify/             → Konfigurasi Netlify Functions
-├── 📁 node_modules/        → Dependencies Node.js
-├── 📄 .env                 → Environment variables (API Keys)
-├── 📄 .gitignore           → Git ignore configuration
-├── 🌐 index.html           → Halaman utama
-├── 🎨 style.css            → Styling CSS
-├── ⚙️ script.js            → JavaScript frontend
-├── 🖥️ server.js            → Backend server (Express)
-├── ⚙️ netlify.toml         → Konfigurasi Netlify
-├── 📦 package.json         → Node.js dependencies & scripts
-├── 🔒 package-lock.json    → Lock file dependencies
-├── 📋 push.log             → Log deployment
-└── 📖 README.md            → Dokumentasi proyek
+## 📂 Struktur Proyek
 
+```text
+projek_akhir_pi/
+│
+├── assets/                 # Aset (gambar, ikon, logo, dll.)
+├── netlify/                # Konfigurasi Netlify Functions
+├── node_modules/           # Dependencies Node.js
+│
+├── .env                    # Environment Variables
+├── .gitignore              # Git Ignore Configuration
+├── index.html              # Halaman Utama
+├── style.css               # Styling Aplikasi
+├── script.js               # JavaScript Frontend
+├── server.js               # Backend Server (Express.js)
+├── netlify.toml            # Konfigurasi Deployment Netlify
+├── package.json            # Informasi Proyek & Dependencies
+├── package-lock.json       # Lock File Dependencies
+├── push.log                # Log Deployment
+└── README.md               # Dokumentasi Proyek
+```
 ---
 
 ## 🚀 Cara Menjalankan Proyek
