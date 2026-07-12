@@ -4,14 +4,14 @@
 
 ## ✨ Fitur Utama
 
-- 🤖 **Chatbot AI** - Konsultasi interaktif dengan Gemini API
--  **Pemeriksa Gejala Berbasis AI** - Analisis gejala kesehatan
-- 📊 **Penilaian Risiko Berbasis AI** - Evaluasi risiko kehamilan
--  **Pelacak Kehamilan** - Monitoring perkembangan janin
-- ⏰ **Pengingat Cerdas** - Notifikasi jadwal penting
-- 🍼 **Pelacak Menyusui** - Tracking jadwal dan durasi menyusui
-- 📈 **Analisis Menyusui Berbasis AI** - Rekomendasi personal
--  **Frequently Asked Questions (FAQ)** - Informasi cepat
+- **Chatbot AI** - Konsultasi interaktif dengan Gemini API
+- **Pemeriksa Gejala Berbasis AI** - Analisis gejala kesehatan
+- **Penilaian Risiko Berbasis AI** - Evaluasi risiko kehamilan
+- **Pelacak Kehamilan** - Monitoring perkembangan janin
+- **Pengingat Cerdas** - Notifikasi jadwal penting
+- **Pelacak Menyusui** - Tracking jadwal dan durasi menyusui
+- **Analisis Menyusui Berbasis AI** - Rekomendasi personal
+- **Frequently Asked Questions (FAQ)** - Informasi cepat
 
 ---
 
