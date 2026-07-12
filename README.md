@@ -20,7 +20,7 @@
 ### Frontend
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript 
 
 ### Backend & API
 - Node.js
@@ -33,23 +33,22 @@
 
 ---
 
-## 📂 Struktur Proyek
 TemanBunda/
 │
-├── assets/ # Folder untuk aset (gambar, font, dll)
-├── netlify/ # Konfigurasi Netlify Functions
-├── node_modules/ # Dependencies Node.js
-├── .env # Environment variables (API Keys)
-├── .gitignore # Git ignore configuration
-├── index.html # Halaman utama
-├── style.css # Styling CSS
-├── script.js # JavaScript frontend
-├── server.js # Backend server (Express)
-├── netlify.toml # Konfigurasi Netlify
-├── package.json # Node.js dependencies & scripts
-├── package-lock.json # Lock file dependencies
-├── push.log # Log deployment
-└── README.md # Dokumentasi proyek
+├── 📁 assets/              → Aset (gambar, font, dll)
+├── 📁 netlify/             → Konfigurasi Netlify Functions
+├── 📁 node_modules/        → Dependencies Node.js
+├── 📄 .env                 → Environment variables (API Keys)
+├── 📄 .gitignore           → Git ignore configuration
+├── 🌐 index.html           → Halaman utama
+├── 🎨 style.css            → Styling CSS
+├── ⚙️ script.js            → JavaScript frontend
+├── 🖥️ server.js            → Backend server (Express)
+├── ⚙️ netlify.toml         → Konfigurasi Netlify
+├── 📦 package.json         → Node.js dependencies & scripts
+├── 🔒 package-lock.json    → Lock file dependencies
+├── 📋 push.log             → Log deployment
+└── 📖 README.md            → Dokumentasi proyek
 
 ---
 
@@ -68,11 +67,11 @@ cd NAMA_REPOSITORY
 npm install
 4. Konfigurasi Environment Variables
 Buat file .env di root folder dan tambahkan:
-- GEMINI_API_KEY=your_api_key_here
-- PORT=3000
+  - GEMINI_API_KEY=your_api_key_here
+  - PORT=3000
 5. Jalankan Development Server
-Opsi A: Menggunakan Node.js langsung
-node server.js
-Opsi B: Menggunakan Netlify Dev 
+  - Opsi A: Menggunakan Node.js langsung
+    node server.js
+  - Opsi B: Menggunakan Netlify Dev 
 6. Buka di Browser
 Akses aplikasi di http://localhost:3000 atau http://localhost:8888
