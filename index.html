@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teman Bunda — Pendamping Cerdas Ibu Hamil & Menyusui</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+<nav class="navbar">
+    <div class="nav-logo">Teman Bunda</div>
+
+    <div class="nav-right">
+        <ul class="nav-links">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#" class="nav-lang">ID / EN</a></li>
+        </ul>
+
+        <button class="btn-daftar">Daftar</button>
+    </div>
+</nav>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Pendampingmu di<br>setiap momen kehamilan</h1>
+      <p class="hero-sub">
+        Teman Bunda hadir 24/7 untuk menjawab<br>
+        pertanyaanmu, memantau tanda bahaya kehamilan,<br>
+        dan mendampingi perjalanan menyusuimu dalam<br>
+        bahasa yang hangat dan mudah dipahami.
+      </p>
+      <h2 class="untuk-siapa">Untuk Siapa Teman Bunda?</h2>
+
+<div class="target-grid">
+
+    <div class="target-card">
+        <div class="target-icon">🤰</div>
+        <div class="target-content">
+            <h3>Ibu Hamil</h3>
+            <p>Pantau perkembangan kehamilan dan dapatkan rekomendasi berbasis AI.</p>
+        </div>
+    </div>
+
+    <div class="target-card">
+        <div class="target-icon">🍼</div>
+        <div class="target-content">
+            <h3>Ibu Menyusui</h3>
+            <p>Catat aktivitas menyusui dan dapatkan analisis pola menyusui.</p>
+        </div>
+    </div>
+
+    <div class="target-card">
+        <div class="target-icon">👩‍⚕️</div>
+        <div class="target-content">
+            <h3>Bidan</h3>
+            <p>Membantu pemantauan kondisi ibu melalui data yang terintegrasi.</p>
+        </div>
+    </div>
+
+    <div class="target-card">
+        <div class="target-icon">🏥</div>
+        <div class="target-content">
+            <h3>Posyandu & Puskesmas</h3>
+            <p>Mendukung layanan kesehatan ibu dan bayi secara berkelanjutan.</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+    </div>
+
+     <div class="target-right">
+        <img src="assets\Group 38.png" alt="Ibu Hamil">
+    </div>
+
+    <!-- Tombol chat melayang -->
+   <button class="floating-chat-btn" onclick="openChat()" title="Mulai Konsultasi AI">
+    <img src="assets\Group 7.png" alt="AI Assistant">
+</button>
+  </section>
+
+  <!-- ======== FITUR UNGGULAN ======== -->
+  <section class="fitur" id="fitur">
+    <h2 class="fitur-title">Fitur Unggulan</h2>
+    <div class="fitur-grid">
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Pengingat Cerdas</h3>
+          <p>Pengingat jadwal kontrol, vitamin, imunisasi, dan aktivitas penting.</p>
+        </div>
+      </div>
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Pelacak Menyusui</h3>
+          <p>Catat jadwal, durasi, dan aktivitas menyusui serta pumping.</p>
+        </div>
+      </div>
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+            <path d="M15 13l-2 2-2-2"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Analisis Menyusui Berbasis AI</h3>
+          <p>Analisis pola menyusui dan berikan rekomendasi yang dipersonalisasi.</p>
+        </div>
+      </div>
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Pemeriksa Gejala Berbasis AI</h3>
+          <p>Analisis awal gejala kehamilan dan menyusui menggunakan AI.</p>
+        </div>
+      </div>
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Penilaian Risiko Berbasis AI</h3>
+          <p>Menilai tingkat risiko kesehatan ibu berdasarkan data dan gejala.</p>
+        </div>
+      </div>
+
+      <div class="fitur-card">
+        <div class="fitur-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8607A" stroke-width="1.8">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <div class="fitur-text">
+          <h3>Pelacak Kehamilan</h3>
+          <p>Pantau perkembangan kehamilan dan janin setiap minggu.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- <div class="fitur-more">
+      <button class="btn-outline">Lihat Fitur Lainnya</button>
+    </div> -->
+  </section>
+
+  <!-- ======== TENTANG KAMI ======== -->
+  <section class="tentang" id="tentang">
+    <h2 class="tentang-title">Tentang Kami</h2>
+    <div class="tentang-box">
+      <div class="tentang-left">
+        <img src="assets/ibu_hamil_2.png" alt="Teman Bunda">
+      </div>
+
+      <div class="tentang-right">
+        <p class="tentang-placeholder">
+          Teman Bunda adalah platform berbasis kecerdasan buatan (AI) yang dirancang untuk mendampingi ibu sejak masa kehamilan hingga menyusui.
+          Kami membantu ibu memahami kondisi kesehatan, memantau perkembangan kehamilan, mengelola aktivitas menyusui, serta memperoleh edukasi dan rekomendasi
+          yang dipersonalisasi berdasarkan kebutuhan masing-masing.
+
+          Dengan menggabungkan teknologi AI dan informasi kesehatan yang tepercaya, Teman Bunda hadir sebagai pendamping digital yang membantu ibu mengambil keputusan
+          lebih cepat, lebih percaya diri, dan lebih terinformasi selama perjalanan menjadi seorang ibu.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FAQ + CTA ======== -->
+  <section class="faq-cta" id="faq">
+    <div class="faq-col">
+        <div class="faq-header">
+            <!-- <span class="section-badge">FAQ</span> -->
+
+            <h2>Frequently Asked Questions</h2>
+        </div>
+      <div class="accordion">
+        <button class="accordion-btn" onclick="toggleAccordion(this)">
+          <span>Apakah Teman Bunda gratis?</span>
+          <svg class="acc-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-content">
+          <p>Ya, layanan dasar Teman Bunda dapat digunakan secara gratis tanpa perlu registrasi. Cukup buka website dan mulai konsultasi.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn" onclick="toggleAccordion(this)">
+          <span>Apakah Teman Bunda bisa menggantikan dokter?</span>
+          <svg class="acc-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-content">
+          <p>Tidak. Teman Bunda adalah alat bantu edukasi dan informasi, bukan pengganti tenaga medis profesional. Selalu konsultasikan kondisi kesehatanmu ke dokter atau bidan.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn" onclick="toggleAccordion(this)">
+          <span>Informasi apa saja yang bisa saya tanyakan?</span>
+          <svg class="acc-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-content">
+          <p>Kamu bisa bertanya seputar kehamilan, perkembangan janin, tanda bahaya, nutrisi ibu hamil, cara menyusui, produksi ASI, jadwal ANC, dan informasi 1000 Hari Pertama Kehidupan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-col">
+      <h2>Mulai perjalananmu<br>bersama kami hari ini</h2>
+      <button class="btn-cta-pink" onclick="openChat()">
+        Mulai Konsultasi Gratis Bersama AI
+      </button>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="footer-logo">Teman Bunda</div>
+    <p>© 2026 Teman Bunda · Perempuan Inovasi × IBM SkillsBuild</p>
+  </footer>
+
+  <!-- ======== CHAT MODAL ======== -->
+  <div class="chat-overlay" id="chatOverlay">
+    <div class="chat-box">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">🤱</div>
+          <div>
+            <h4>Teman Bunda</h4>
+            <span>● Online sekarang</span>
+          </div>
+        </div>
+        <button class="chat-close" onclick="closeChat()">✕</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="msg msg-bot">
+          Halo, Bunda! 👋 Saya Teman Bunda, pendampingmu selama kehamilan dan menyusui.<br><br>
+          Ada yang ingin kamu tanyakan hari ini?
+        </div>
+        <div class="msg msg-bot msg-hint">
+          💡 Contoh: <em>"Saya 28 minggu hamil, perut bagian bawah sering nyeri, normal kah?"</em>
+        </div>
+      </div>
+      <div class="chat-input-row">
+        <input
+          class="chat-input"
+          id="chatInput"
+          type="text"
+          placeholder="Ketik pertanyaanmu..."
+          onkeydown="if(event.key==='Enter') sendMsg()"
+        />
+        <button class="chat-send" onclick="sendMsg()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

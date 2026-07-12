@@ -1,0 +1,27 @@
+{
+  "name": "projek_akhir_pi",
+  "version": "1.0.0",
+  "description": "Teman Bunda adalah platform kesehatan berbasis kecerdasan buatan (AI) yang dirancang untuk mendampingi ibu hamil dan ibu menyusui. Website ini menyediakan layanan edukasi, pemantauan, dan konsultasi berbasis AI untuk membantu ibu memperoleh informasi kesehatan yang akurat, mudah dipahami, dan personal.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devi-lam/projek_akhir_pi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devi-lam/projek_akhir_pi/issues"
+  },
+  "homepage": "https://github.com/devi-lam/projek_akhir_pi#readme",
+  "dependencies": {
+    "@google/genai": "^2.11.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
